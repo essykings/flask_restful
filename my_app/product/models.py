@@ -11,8 +11,4 @@ class Product(db.Model):
         self.price = price
 
     def __repr__(self):
-        return f'Product{self.name}{self.price})'
-
-
-
-
+        return f'Product{self.name}{self.price}'
